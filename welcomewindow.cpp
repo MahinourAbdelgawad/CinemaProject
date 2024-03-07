@@ -7,11 +7,11 @@ WelcomeWindow::WelcomeWindow(QString username, int age, QWidget *parent)
     , ui(new Ui::WelcomeWindow)
 {
     ui->setupUi(this);
-    ui->label_hello->setText("Hello" + username + " " + QString::number(age));
-    QPixmap pix ("welcome.jpg");
-    int w = ui->label_welcome->width();
-    int h = ui->label_welcome->height();
-    ui->label_welcome->setPixmap(pix.scaled(w, h, Qt::KeepAspectRatio));
+    ui->label_hello->setText("Hello, " + username + ", " + QString::number(age));
+    QPixmap pix ("C:\\Users\\mahin\\Desktop\\Uni\\Spring 2024\\CS 2 Lab\\Assignments\\Assignment 1\\CinemaProject - Copy\\welcome.jpg");
+    int w = ui->label_image->width();
+    int h = ui->label_image->height();
+    ui->label_image->setPixmap(pix.scaled(w, h, Qt::KeepAspectRatio));
 
 }
 

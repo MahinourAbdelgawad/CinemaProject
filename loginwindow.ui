@@ -43,9 +43,9 @@
    <widget class="QLineEdit" name="userin">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>102</x>
       <y>50</y>
-      <width>113</width>
+      <width>161</width>
       <height>21</height>
      </rect>
     </property>
@@ -55,7 +55,7 @@
      <rect>
       <x>100</x>
       <y>90</y>
-      <width>113</width>
+      <width>161</width>
       <height>21</height>
      </rect>
     </property>
@@ -73,7 +73,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>LogIn</string>
+     <string>Log In</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_register">
@@ -99,7 +99,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff2600;&quot;&gt;Error:wrong username or password&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff2600;&quot;&gt;Error: Invalid username or password&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
   </widget>

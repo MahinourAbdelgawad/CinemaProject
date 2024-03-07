@@ -17,47 +17,47 @@
    <widget class="QLabel" name="label_hello">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>30</y>
+      <x>120</x>
+      <y>20</y>
       <width>351</width>
-      <height>16</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;TextLabel&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_welcome">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>60</y>
-      <width>81</width>
-      <height>16</height>
+      <x>410</x>
+      <y>80</y>
+      <width>171</width>
+      <height>91</height>
      </rect>
     </property>
     <property name="text">
-     <string>Welcome</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt; font-style:italic; color:#ffffff;&quot;&gt;Welcome&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_image">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>120</x>
       <y>60</y>
-      <width>381</width>
-      <height>241</height>
+      <width>541</width>
+      <height>381</height>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_logout">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>340</y>
+      <x>120</x>
+      <y>470</y>
       <width>80</width>
       <height>24</height>
      </rect>
@@ -66,6 +66,10 @@
      <string>Logout</string>
     </property>
    </widget>
+   <zorder>label_hello</zorder>
+   <zorder>label_image</zorder>
+   <zorder>pushButton_logout</zorder>
+   <zorder>label_welcome</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
